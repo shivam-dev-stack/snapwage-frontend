@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SnapWage — HR Management Platform
 
-## Getting Started
+SnapWage is a modern Human Resource Management System (HRMS) frontend inspired by the needs of modern workplaces, with a custom UI and a focus on simplifying employee management workflows.
 
-First, run the development server:
+## ✨ Overview
+
+SnapWage aims to bring essential HR operations into one interface, helping organizations manage employee-related workflows through a clean and intuitive user experience.
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 16
+- **UI Library:** React 19
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS 4
+- **Linting:** ESLint
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js compatible with the installed Next.js version
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/shivam-dev-stack/snapwage-frontend.git
+cd snapwage-frontend
+npm install
+```
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run start` | Start the production server |
+| `npm run lint` | Run ESLint |
 
-## Learn More
+## 🧩 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+snapwage-frontend/
+├── app/             # Next.js routes and layouts
+├── src/             # Application source code
+├── public/          # Static assets
+├── package.json
+├── next.config.ts
+└── tsconfig.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Project Goals
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Build a modern HRMS user interface.
+- Create intuitive employee management workflows.
+- Develop a responsive and maintainable frontend.
+- Integrate backend APIs as the application evolves.
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Suggestions and contributions are welcome. Please open an issue to discuss significant changes before submitting a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+See the repository's `LICENSE` file for licensing terms.
